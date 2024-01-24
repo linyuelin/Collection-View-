@@ -13,6 +13,8 @@
 		B57BF30F2B60DD99009A8617 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B57BF30D2B60DD99009A8617 /* Main.storyboard */; };
 		B57BF3112B60DD9B009A8617 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B57BF3102B60DD9B009A8617 /* Assets.xcassets */; };
 		B57BF3142B60DD9B009A8617 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B57BF3122B60DD9B009A8617 /* LaunchScreen.storyboard */; };
+		B57BF31C2B60E80F009A8617 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57BF31B2B60E80F009A8617 /* MyCollectionViewCell.swift */; };
+		B57BF31E2B60ECA2009A8617 /* CollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57BF31D2B60ECA2009A8617 /* CollectionReusableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		B57BF3102B60DD9B009A8617 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B57BF3132B60DD9B009A8617 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B57BF3152B60DD9B009A8617 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B57BF31B2B60E80F009A8617 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		B57BF31D2B60ECA2009A8617 /* CollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionReusableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				B57BF3102B60DD9B009A8617 /* Assets.xcassets */,
 				B57BF3122B60DD9B009A8617 /* LaunchScreen.storyboard */,
 				B57BF3152B60DD9B009A8617 /* Info.plist */,
+				B57BF31B2B60E80F009A8617 /* MyCollectionViewCell.swift */,
+				B57BF31D2B60ECA2009A8617 /* CollectionReusableView.swift */,
 			);
 			path = CollectionViewSupplementaryViews;
 			sourceTree = "<group>";
@@ -140,6 +146,8 @@
 			files = (
 				B57BF30C2B60DD99009A8617 /* ViewController.swift in Sources */,
 				B57BF3082B60DD99009A8617 /* AppDelegate.swift in Sources */,
+				B57BF31C2B60E80F009A8617 /* MyCollectionViewCell.swift in Sources */,
+				B57BF31E2B60ECA2009A8617 /* CollectionReusableView.swift in Sources */,
 				B57BF30A2B60DD99009A8617 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
